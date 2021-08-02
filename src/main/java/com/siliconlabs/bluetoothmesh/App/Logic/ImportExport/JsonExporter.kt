@@ -102,7 +102,16 @@ class JsonExporter {
         val dcd = node.deviceCompositionData
         return JsonFeature().apply {
             if (features != null) {
-                relay = convertFeatureState(dcd?.supportsRelay(), features.isRelayEnabled)
+                //added null check below to assign false value to 'replay' to prevent null being assigned
+                //which causes relevant node data to not be imported during 'import' phase
+                if(features.isRelayEnabled != null)
+                {
+                    relay = convertFeatureState(dcd?.supportsRelay(), features.isRelayEnabled)
+                }
+                else
+                {
+                    relay = convertFeatureState(dcd?.supportsRelay(), false)
+                }
             }
             if (features != null) {
                 friend = convertFeatureState(dcd?.supportsFriend(), features.isFriendEnabled)
