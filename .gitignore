@@ -1,0 +1,5 @@
+/.gradle/
+/.idea/
+/build/
+/ble_mesh-android_api_high-release/build/.transforms/
+/ble_mesh-android_api_low-release/build/.transforms/

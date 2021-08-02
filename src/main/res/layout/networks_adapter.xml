@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright © 2019 Silicon Labs, http://www.silabs.com. All rights reserved.
+  -->
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.Light">
+
+    <LinearLayout
+        android:id="@+id/swipe_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_remove"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/primary"
+            android:padding="@dimen/adapter_bottom_layout_padding"
+            android:src="@drawable/delete" />
+
+        <ImageView
+            android:id="@+id/iv_config"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            android:padding="@dimen/adapter_bottom_layout_padding"
+            android:scaleType="centerInside"
+            android:src="@drawable/baseline_settings_black_18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_adapter"
+        android:orientation="horizontal"
+        android:padding="@dimen/adapter_layout_padding"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/adapter_item_padding"
+            android:src="@drawable/ic_network" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/adapter_item_padding"
+                android:text="Generic Network"
+                android:textColor="@color/adapter_item_title_color"
+                android:textSize="@dimen/adapter_label_big_size" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_group_devices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/adapter_item_padding"
+                    android:text="0 devices"
+                    android:textColor="@color/adapter_item_label_color"
+                    android:textSize="@dimen/adapter_label_small_size" />
+
+                <TextView
+                    android:id="@+id/tv_network_groups"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/adapter_item_padding"
+                    android:text="0 groups"
+                    android:textColor="@color/adapter_item_label_color"
+                    android:textSize="@dimen/adapter_label_small_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/adapter_item_padding"
+                    android:src="@drawable/key_small" />
+
+                <TextView
+                    android:id="@+id/tv_network_key_index"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center_vertical"
+                    android:padding="@dimen/adapter_item_padding"
+                    android:text="0"
+                    android:textColor="@color/adapter_item_label_color"
+                    android:textSize="@dimen/adapter_label_small_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.daimajia.swipe.SwipeLayout>

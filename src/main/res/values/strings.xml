@@ -1,0 +1,401 @@
+<!--
+  ~ Copyright © 2019 Silicon Labs, http://www.silabs.com. All rights reserved.
+  -->
+
+<resources>
+    <string name="app_name">Bluetooth Mesh</string>
+
+    <string name="dialog_positive_add">Add</string>
+    <string name="dialog_positive_ok">OK</string>
+    <string name="dialog_positive_save">Save</string>
+    <string name="dialog_positive_delete">Delete</string>
+    <string name="dialog_negative_cancel">Cancel</string>
+    <string name="dialog_retry">Retry</string>
+
+    <string name="network_adapter_empty_list_title">No networks</string>
+    <string name="network_adapter_empty_list_message">Tap + to add a new network.</string>
+    <string name="network_adapter_devices_label">%1$d devices</string>
+    <string name="network_adapter_groups_label">%1$d groups</string>
+    <string name="network_update_successful_message">Network updated</string>
+    <string name="device_scanner_turn_on_scan">Scan</string>
+    <string name="device_scanner_turn_off_scan">Stop</string>
+    <string name="network_add_successful_message">Network added</string>
+    <string name="network_update_error_empty_name_message">Name is empty</string>
+    <string name="network_create_error">Error creating network</string>
+    <string name="network_menu_about_bluetooth_mesh">About Bluetooth Mesh</string>
+    <string name="network_menu_credits">Credits</string>
+    <string name="network_menu_export_cryptographic_keys">Export cryptographic keys</string>
+    <string name="network_menu_export_logs">Export logs</string>
+    <string name="network_menu_export_cryptographic_keys_message">Select if you want to share your cryptographic keys or save them to your phone storage.</string>
+    <string name="network_menu_credits_dagger_license">Copyright 2012 The Dagger Authors\n\nApache License, Version 2.0 Apache License Version 2.0, January 2004 http://www.apache.org/licenses/\n\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n1. Definitions.\n\n"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.\n\n"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.\n\n"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.\n\n"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.\n\n"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.\n\n"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.\n\n"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).\n\n"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.\n\n"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."\n\n"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.\n\n2. Grant of Copyright License.\n\nSubject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.\n\n3. Grant of Patent License.\n\nSubject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.\n\n4. Redistribution.\n\nYou may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:\n\nYou must give any other recipients of the Work or Derivative Works a copy of this License; and You must cause any modified files to carry prominent notices stating that You changed the files; and You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.\n\n5. Submission of Contributions.\n\nUnless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.\n\n6. Trademarks.\n\nThis License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.\n\n7. Disclaimer of Warranty.\n\nUnless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.\n\n8. Limitation of Liability.\n\nIn no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.\n\n9. Accepting Warranty or Additional Liability.\n\nWhile redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.\n\nEND OF TERMS AND CONDITIONS\n\nAPPENDIX: How to apply the Apache License to your work\n\nTo apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don\'t include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.\n\nCopyright [yyyy] [name of copyright owner]\n\nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="network_menu_credits_gson_license">Copyright 2008 Google Inc.\n\nApache License, Version 2.0 Apache License Version 2.0, January 2004 http://www.apache.org/licenses/\n\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n1. Definitions.\n\n"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.\n\n"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.\n\n"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.\n\n"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.\n\n"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.\n\n"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.\n\n"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).\n\n"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.\n\n"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."\n\n"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.\n\n2. Grant of Copyright License.\n\nSubject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.\n\n3. Grant of Patent License.\n\nSubject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.\n\n4. Redistribution.\n\nYou may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:\n\nYou must give any other recipients of the Work or Derivative Works a copy of this License; and You must cause any modified files to carry prominent notices stating that You changed the files; and You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.\n\n5. Submission of Contributions.\n\nUnless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.\n\n6. Trademarks.\n\nThis License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.\n\n7. Disclaimer of Warranty.\n\nUnless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.\n\n8. Limitation of Liability.\n\nIn no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.\n\n9. Accepting Warranty or Additional Liability.\n\nWhile redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.\n\nEND OF TERMS AND CONDITIONS\n\nAPPENDIX: How to apply the Apache License to your work\n\nTo apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don\'t include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.\n\nCopyright [yyyy] [name of copyright owner]\n\nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="network_menu_credits_rxjava_license">Copyright © 2016-present, RxJava Contributors.\n\nApache License, Version 2.0 Apache License Version 2.0, January 2004 http://www.apache.org/licenses/\n\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n1. Definitions.\n\n"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.\n\n"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.\n\n"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.\n\n"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.\n\n"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.\n\n"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.\n\n"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).\n\n"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.\n\n"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."\n\n"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.\n\n2. Grant of Copyright License.\n\nSubject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.\n\n3. Grant of Patent License.\n\nSubject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.\n\n4. Redistribution.\n\nYou may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:\n\nYou must give any other recipients of the Work or Derivative Works a copy of this License; and You must cause any modified files to carry prominent notices stating that You changed the files; and You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.\n\n5. Submission of Contributions.\n\nUnless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.\n\n6. Trademarks.\n\nThis License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.\n\n7. Disclaimer of Warranty.\n\nUnless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.\n\n8. Limitation of Liability.\n\nIn no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.\n\n9. Accepting Warranty or Additional Liability.\n\nWhile redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.\n\nEND OF TERMS AND CONDITIONS\n\nAPPENDIX: How to apply the Apache License to your work\n\nTo apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don\'t include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.\n\nCopyright [yyyy] [name of copyright owner]\n\nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="network_menu_credits_swipe_layout_license">The MIT License (MIT)\n\nCopyright © 2014 代码家\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE</string>
+    <string name="network_dialog_delete_title">Delete selected?</string>
+    <string name="network_dialog_delete_locally_title">Delete locally?</string>
+    <string name="network_dialog_delete_locally_message">%1$s\nDo you want to delete %2$s from the app?</string>
+    <string name="network_dialog_add_name_label">Name</string>
+    <string name="network_dialog_add_title">Add network</string>
+    <string name="network_dialog_edit_title">Network configuration</string>
+    <string name="network_dialog_edit_name_label">Name</string>
+    <string name="network_dialog_edit_id_label">NID</string>
+    <string name="network_dialog_edit_key_label">Key</string>
+    <string name="network_dialog_loading_text_removing_network">Removing network %1$s</string>
+    <string name="network_dialog_loading_text_removing_network_error">Error removing network %1$s</string>
+    <string name="network_dialog_loading_text_connecting_to_network">Connecting to network %1$s</string>
+    <string name="network_dialog_loading_text_connecting_to_network_error">Connecting to network error %1$s</string>
+    <string name="network_dialog_share_keys_button">Share</string>
+    <string name="network_dialog_save_keys_to_file_button">Save to file</string>
+
+    <string name="group_adapter_empty_list_title">No groups</string>
+    <string name="group_adapter_empty_list_message">Tap + to add a new group.</string>
+    <string name="group_adapter_devices_label">%1$d devices</string>
+    <string name="group_delete_error_existed_nodes">Remove nodes from this group first</string>
+    <string name="group_create_group_error">Error creating group</string>
+    <string name="group_update_error_empty_name_message">Name is empty</string>
+    <string name="group_dialog_delete_title">Delete selected?</string>
+    <string name="group_dialog_delete_locally_title">Delete locally?</string>
+    <string name="group_dialog_delete_locally_message">%1$s\nDo you want to delete %2$s from the app?</string>
+    <string name="group_dialog_add_name_label">Name</string>
+    <string name="group_dialog_add_title">Add group</string>
+    <string name="group_dialog_edit_title">Group configuration</string>
+    <string name="group_dialog_edit_name_label">Name</string>
+    <string name="group_dialog_edit_id_label">ID</string>
+    <string name="group_dialog_edit_network_label">Network</string>
+    <string name="group_dialog_loading_text_removing_group">Removing group %1$s</string>
+    <string name="group_dialog_loading_text_removing_group_error">Error removing group %1$s</string>
+
+    <string name="scanner_dialog_loading_text">Connecting…</string>
+    <string name="scanner_dialog_alert_title">ATTENTION!</string>
+    <string name="scanner_dialog_alert_message">This device is already provisioned for this network, and its previous information is going to be deleted!</string>
+
+    <string name="scanner_dialog_loading_text_device_provisioned_gatt_disconnected">Device provisioned - Gatt Disconnected</string>
+    <string name="scanner_dialog_loading_text_device_successfully_provisioned">Device Successfully Provisioned</string>
+    <string name="scanner_dialog_loading_text_provisioning">Provisioning…</string>
+    <string name="scanner_dialog_loading_text_redirecting_to_devices">Redirecting to Devices</string>
+    <string name="scanner_dialog_provisioning_device_title">Provisioning device</string>
+    <string name="scanner_dialog_provisioning_device_name_label">Name</string>
+    <string name="scanner_dialog_provisioning_device_network_label">Network</string>
+    <string name="scanner_dialog_empty_name">Name is empty</string>
+    <string name="scanner_adapter_empty_list_title">No devices</string>
+    <string name="scanner_adapter_empty_list_message">Tap Scan to start searching for Bluetooth mesh devices.</string>
+
+    <string name="devices_dialog_delete_title">Delete selected?</string>
+    <string name="devices_dialog_delete_from_proxy_message">One of the selected devices is a proxy. You will be disconnected.</string>
+
+    <string name="device_dialog_delete_locally_title">Delete locally?</string>
+    <string name="device_dialog_delete_locally_message">%1$s\nDo you want to delete %2$s from the app?</string>
+    <string name="device_dialog_config_page_title">Configuration</string>
+    <string name="device_dialog_config_dcd_warning">Composition Data not available</string>
+    <string name="device_dialog_config_name_label">Name</string>
+    <string name="device_dialog_config_proxy_label">Proxy</string>
+    <string name="device_dialog_config_relay_label">Relay</string>
+    <string name="device_dialog_config_friend_label">Friend</string>
+    <string name="device_dialog_config_retransmission_label">Retransmission</string>
+    <string name="device_dialog_config_group_label">Group</string>
+    <string name="device_dialog_config_low_power_label">Low Power</string>
+    <string name="device_dialog_config_low_power_supported">Is supported</string>
+    <string name="device_dialog_config_functionality_label">Functionality</string>
+    <string name="device_dialog_info_page_title">Info</string>
+    <string name="device_dialog_info_device_category_label">Device</string>
+    <string name="device_dialog_info_device_name_label">Name</string>
+    <string name="device_dialog_info_address_label">Unicast Address</string>
+    <string name="device_dialog_info_uuid_label">UUID</string>
+    <string name="device_dialog_info_network_category_label">Network</string>
+    <string name="device_dialog_info_network_name_label">Name</string>
+    <string name="device_dialog_info_keys_category_label">Keys</string>
+    <string name="device_dialog_info_models_category_label">Models</string>
+    <string name="device_dialog_info_net_key_label">NetKey</string>
+    <string name="device_dialog_info_app_key_label">AppKey</string>
+    <string name="device_dialog_info_dev_key_label">DevKey</string>
+    <string name="device_dialog_info_table_first_col_label">Element</string>
+    <string name="device_dialog_info_table_second_col_label">Vendor</string>
+    <string name="device_dialog_info_table_third_col_label">ID</string>
+    <string name="device_dialog_info_table_fourth_col_label">Description</string>
+    <string name="device_dialog_poll_timeout_label">Poll Timeout for Friend</string>
+    <string name="device_dialog_poll_timeout_value">%1$s s</string>
+    <string name="device_dialog_poll_timeout_value_unknown">--- s</string>
+    <string name="device_dialog_lpn_timeout_label">Global Low Power Timeout</string>
+    <string name="device_dialog_lpn_set_label">Set</string>
+    <string name="device_dialog_lpn_hint">Timeout to set in seconds</string>
+    <string name="device_dialog_lpn_value_label">Current timeout: %1$s s</string>
+    <string name="device_dialog_friend_null">No node selected</string>
+
+    <string name="device_config_connecting">Connecting with device</string>
+    <string name="device_config_disconnected">Disconnected from network</string>
+    <string name="device_config_adding_to_group">Adding to %1$s</string>
+    <string name="device_config_removing_from_group">Removing from %1$s</string>
+    <string name="device_config_device_deleting">Deleting device</string>
+    <string name="device_config_proxy_enabling">Enabling proxy</string>
+    <string name="device_config_proxy_disabling">Disabling proxy</string>
+    <string name="device_config_proxy_getting">Getting proxy status</string>
+    <string name="device_config_proxy_disable_attention_title">Attention</string>
+    <string name="device_config_proxy_disable_attention_message">Disabling this proxy will cause you to lose access to the network. Continue anyways?</string>
+    <string name="device_config_model_adding">Adding model 0x%1$s</string>
+    <string name="device_config_model_removing">Removing model 0x%1$s</string>
+    <string name="device_config_subscription_adding">Adding subscription: 0x%1$s</string>
+    <string name="device_config_subscription_removing">Removing subscription: 0x%1$s</string>
+    <string name="device_config_publication_setting">Setting publication: 0x%1$s</string>
+    <string name="device_config_publication_clearing">Clearing publication: 0x%1$s</string>
+    <string name="device_config_functionality_changing">Changing functionality</string>
+    <string name="device_config_friend_enabling">Enabling friend</string>
+    <string name="device_config_friend_disabling">Disabling friend</string>
+    <string name="device_config_friend_getting">Getting friend status</string>
+    <string name="device_config_retransmission_enabling">Enabling retransmission</string>
+    <string name="device_config_retransmission_disabling">Disabling retransmission</string>
+    <string name="device_config_retransmission_getting">Getting retransmission status</string>
+    <string name="device_config_relay_enabling">Enabling relay</string>
+    <string name="device_config_relay_disabling">Disabling relay</string>
+    <string name="device_config_relay_getting">Getting relay status</string>
+    <string name="device_config_select_group_first">Please select a group first</string>
+    <string name="device_config_poll_timeout_getting">Getting poll timeout status</string>
+    <string name="device_config_poll_timeout_updated">Poll timeout updated</string>
+    <string name="device_config_poll_timeout_not_friend">%s is not a Friend</string>
+    <string name="device_config_lpn_timeout_setting">Setting LPN global timeout</string>
+    <string name="device_config_lpn_timeout_getting">Getting LPN global timeout</string>
+    <string name="device_config_lpn_timeout_wrong_range">Timeout should be in range: 0–2147483 s</string>
+    <string name="device_config_dcd_getting">Getting Composition Data</string>
+
+    <string name="control_group_not_connected_to_mesh_network">Not connected to mesh network</string>
+    <string name="control_group_device_master_control_label">Master Control</string>
+    <string name="control_group_device_devices_label">Devices</string>
+    <string name="control_group_device_switch_label">Switch</string>
+    <string name="control_group_device_light_label">Light</string>
+    <string name="control_group_missing_group">Missing group</string>
+    <string name="control_group_success">SUCCESS</string>
+    <string name="control_group_to_do">TO DO</string>
+
+    <string name="scanner_adapter_rssi">%d dBm</string>
+    <string name="scanner_adapter_device_unknown">Unknown</string>
+    <string name="scanner_adapter_provision">Provision</string>
+    <string name="scanner_adapter_no_network_on_provisioning">You have to have at least one network to provision a device</string>
+
+    <string name="main_activity_networks_page_title">Networks</string>
+    <string name="main_activity_provision_page_title">Provision</string>
+    <string name="main_activity_enable_button">Enable</string>
+    <string name="main_activity_bluetooth_adapter_disabled">Bluetooth adapter is disabled</string>
+    <string name="main_activity_location_adapter_disabled">Location adapter is disabled</string>
+    <string name="main_activity_dialog_not_support_ble_title">Attention</string>
+    <string name="main_activity_dialog_not_support_ble_message">This device does not support BLE</string>
+    <string name="main_activity_dialog_not_support_ble_positive_button">Quit</string>
+    <string name="main_activity_dialog_location_permission_not_granted_title">Functionality limited</string>
+    <string name="main_activity_dialog_location_permission_not_granted_message">Since location access has not been granted, this app will not be able to discover beacons when in the background.</string>
+
+    <string name="network_fragment_groups_page_title">Groups</string>
+    <string name="network_fragment_devices_page_title">Devices</string>
+    <string name="network_fragment_gatt_proxy_disconnected">Remote proxy disconnected</string>
+    <string name="network_fragment_gatt_error_discovering_services">Error discovering services</string>
+    <string name="network_fragment_toast_no_node_in_network">No node in this network</string>
+    <string name="network_fragment_toast_gatt_not_connected">Bluetooth Gatt is not connected</string>
+    <string name="network_fragment_toast_no_mesh_proxy_service">Mesh GATT Service is not found</string>
+    <string name="network_fragment_toast_no_mesh_proxy_characteristic">Mesh GATT Characteristic is not found</string>
+    <string name="network_fragment_toast_no_mesh_proxy_descriptor">Mesh GATT Descriptor is not found</string>
+
+    <string name="dialog_about_app_version">APP version: %s</string>
+    <string name="dialog_about_api_version">API version: %s</string>
+    <string name="dialog_about_adk_version">ADK version: %s</string>
+    <string name="dialog_about_copyright">Copyright \u00A9 2019 Silicon Labs\nAll rights reserved</string>
+
+    <string name="error_message_timeout">Request timeout</string>
+    <string name="error_message_unknown">Unknown error</string>
+    <string name="error_message_api_error">Bluetooth mesh error</string>
+    <string name="error_message_could_not_connect_to_device">Connecting to the device failed</string>
+    <string name="error_message_could_not_subscribe_to_characteristic">Subscribing to the device characteristic failed</string>
+    <string name="error_message_could_not_read_service_data">Reading service data failed</string>
+    <string name="error_message_disconnected_from_device">Disconnected from the device</string>
+    <string name="error_message_provisioning_already_pending">A provisioning session is already pending</string>
+    <string name="error_message_max_connections_active">Attempt to exceed the maximum number of connections</string>
+    <string name="error_message_could_not_provision">Provisioning failed</string>
+    <string name="error_message_cannot_save_to_database">Saving to local storage failed</string>
+    <string name="error_message_code">Error %1$d</string>
+    <string name="error_message_code_and_content">Error %1$d: %2$s</string>
+
+    <string name="device_adapter_empty_list_title">No devices</string>
+    <string name="device_adapter_empty_list_message">Go to Provision to start searching for Bluetooth mesh devices.</string>
+    <string name="device_adapter_active_proxy">Active proxy connection</string>
+    <string name="device_adapter_lightness_label">Lightness</string>
+    <string name="device_adapter_lightness_value">%d %%</string>
+    <string name="device_adapter_temperature_label">Temperature</string>
+    <string name="device_adapter_temperature_value">%d K</string>
+    <string name="device_adapter_delta_uv_label">Delta UV</string>
+    <string name="device_adapter_delta_uv_value">%.2f</string>
+    <string name="device_adapter_remove_device_success">SUCCESS</string>
+    <string name="device_adapter_remove_device_error">Error deleting device</string>
+    <string name="device_adapter_missing_group">Missing group</string>
+    <string name="device_adapter_scenes_store_title">Store current node\'s state to scene</string>
+    <string name="device_adapter_scenes_store">Store</string>
+    <string name="device_adapter_scenes_recall">Recall</string>
+    <string name="device_adapter_scenes_one_label">Scene 1</string>
+    <string name="device_adapter_scenes_two_label">Scene 2</string>
+    <string name="device_adapter_scenes_not_known_state">Not Know</string>
+    <string name="device_adapter_scenes_not_stored_state">Not Stored</string>
+    <string name="device_adapter_scenes_stored_state">Stored</string>
+    <string name="device_adapter_scenes_active_state">Active</string>
+    <string name="device_adapter_scenes_success_status">Success</string>
+    <string name="device_adapter_scenes_not_found_status">Scene is not registered</string>
+    <string name="device_adapter_scenes_register_full_status">Register is full, fail to register</string>
+    <string name="device_adapter_scenes_wrong_status">Wrong scene status</string>
+    <string name="device_adapter_scenes_recall_or_delete_scenes_title">Recall or delete scenes</string>
+    <string name="device_adapter_scenes_scene_status_title">Scene status</string>
+
+    <string name="device_adapter_lc_illuminance_unit">Lux</string>
+    <string name="device_adapter_lc_time_unit">s</string>
+    <string name="device_adapter_lc_percentage_unit">%</string>
+    <string name="device_adapter_lc_property_et_hint">Place value here…</string>
+    <string name="device_adapter_lc_property_send_button">Send</string>
+    <string name="device_adapter_lc_property_states_title">LC Property States</string>
+    <string name="device_adapter_lc_on_off_label">LC On Off</string>
+    <string name="device_adapter_lc_occupancy_mode_label">LC Occupancy Mode</string>
+    <string name="device_adapter_lc_mode_label">LC Mode</string>
+    <string name="device_adapter_lc_states_title">LC States</string>
+    <string name="device_adapter_time_time_role_title">Time role</string>
+    <string name="device_adapter_time_time_role_get_button">Time role get</string>
+    <string name="device_adapter_time_send_button">Send</string>
+    <string name="device_adapter_time_time_status_title">Time status</string>
+    <string name="device_adapter_time_time_get_button">Time get</string>
+    <string name="device_adapter_time_human_readable_representation_label">Human readable representation</string>
+    <string name="device_adapter_time_state_to_change_label">State to change</string>
+    <string name="device_adapter_time_tai_seconds_label">TAI Seconds</string>
+    <string name="device_adapter_time_subsecond_label">Subsecond</string>
+    <string name="device_adapter_time_uncertainty_label">Uncertainty</string>
+    <string name="device_adapter_time_time_authority_label">Time authority</string>
+    <string name="device_adapter_time_tai_utc_delta_label">TAI-UTC delta</string>
+    <string name="device_adapter_time_time_zone_offset_label">Time Zone Offset</string>
+    <string name="device_adapter_time_copy_status_fields_button">Copy status fields</string>
+    <string name="device_adapter_time_local_time_button">Local Time</string>
+    <string name="device_adapter_time_time_set_button">Time set</string>
+    <string name="device_adapter_time_subsecond_invalid_range">Subsecond value must be in range 0 to 255</string>
+    <string name="device_adapter_time_uncertainty_invalid_range">Uncertainty value must be in range 0 to 255</string>
+    <string name="device_adapter_time_time_authority_invalid_range">Time authority value must be 0 or 1</string>
+    <string name="device_adapter_time_tai_utc_delta_invalid_range">TAI - UTC delta value must be in range -255 to 32512</string>
+    <string name="device_adapter_time_time_zone_offset_invalid_range">Time Zone Offset value must be in range -64 to 191</string>
+    <string-array name="device_adapter_time_roles">
+        <item>None</item>
+        <item>Time Authority</item>
+        <item>Time Relay</item>
+        <item>Time Client</item>
+    </string-array>
+    <string name="device_adapter_time_no_value">-</string>
+    <string name="device_adapter_time_fields_cannot_be_empty">Fields cannot be empty</string>
+    <string name="device_adapter_time_success_setting_time">Success setting time</string>
+    <string name="device_adapter_time_success_getting_time">Success getting time</string>
+    <string name="device_adapter_time_success_setting_time_role">Success setting time role</string>
+    <string name="device_adapter_time_success_getting_time_role">Success getting time role</string>
+    <string name="device_adapter_time_invalid_input">Invalid input</string>
+
+    <string name="device_adapter_time_control">Time control</string>
+    <string name="device_adapter_scheduler_control">Scheduler control</string>
+    <string name="device_adapter_scheduler_back">Back</string>
+
+    <string name="device_adapter_scheduler_refresh_status">Refresh scheduler status</string>
+    <string name="device_adapter_scheduler_refresh_register">Refresh entry</string>
+    <string name="device_adapter_scheduler_set_button">Set action</string>
+    <string name="device_adapter_scheduler_action">Action</string>
+    <string name="device_adapter_scheduler_date">Date</string>
+    <string name="device_adapter_scheduler_year">Year</string>
+    <string name="device_adapter_scheduler_every_year">Every year</string>
+    <string name="device_adapter_scheduler_every_month">Every month</string>
+    <string name="device_adapter_scheduler_every_day">Every day</string>
+    <string name="device_adapter_scheduler_day">Day</string>
+    <string name="device_adapter_scheduler_every_weekday">Every day of week</string>
+    <string name="device_adapter_scheduler_time">Time</string>
+    <string name="device_adapter_scheduler_hour">Hour</string>
+    <string name="device_adapter_scheduler_minute">Minute</string>
+    <string name="device_adapter_scheduler_second">Second</string>
+    <string name="device_adapter_lc_property_value_unknown">---</string>
+    <string name="device_adapter_lc_input_out_of_range">Value not fit to %s … %s</string>
+    <string name="device_adapter_lc_input_blank">Value can not be blank</string>
+    <string name="device_adapter_lc_new_lc_mode">New LC Mode: %s</string>
+    <string name="device_adapter_lc_new_lc_occupancy_mode">New LC Occupancy Mode: %s</string>
+    <string name="device_adapter_lc_new_lc_on_off_mode">New LC OnOff Mode: %s</string>
+    <string name="device_adapter_lc_new_lc_property_value">New LC Property value: %s</string>
+    <string name="device_adapter_scenes_remove">Remove</string>
+    <string name="device_adapter_scheduler_wrong_input_format">Wrong input format: %s</string>
+    <string name="device_adapter_scheduler_default_year">’00</string>
+    <string name="device_adapter_scheduler_year_number_format">’%1$02d</string>
+    <string name="device_adapter_scheduler_invalid_range">%s value must be in range %d to %d</string>
+    <string name="device_adapter_scheduler_success_setting_action">Success setting action</string>
+    <string name="device_adapter_scheduler_success_getting_action">Success getting action</string>
+    <string name="device_config_dcd_info_title">Composition Data</string>
+    <string name="device_config_dcd_info_content">A Composition Data state contains information about a node, elements it includes, and models it supports.</string>
+
+    <string name="logs_adapter_modified_label">Last Modified:</string>
+    <string name="logs_adapter_size_label">Size:</string>
+    <string name="logs_menu_action_share">Share</string>
+    <string name="logs_menu_action_save">Save</string>
+    <string name="logs_empty_list">No logs found</string>
+    <string name="logs_save_error">Something went wrong</string>
+
+    <string-array name="device_adapter_lc_properties">
+        <item>Ambient LuxLevel On</item>
+        <item>Ambient LuxLevel Prolong</item>
+        <item>Ambient LuxLevel Standby</item>
+        <item>Lightness On</item>
+        <item>Lightness Prolong	</item>
+        <item>Lightness Standby</item>
+        <item>Regulator Accuracy</item>
+        <item>Regulator Kid</item>
+        <item>Regulator Kiu</item>
+        <item>Regulator Kpd</item>
+        <item>Regulator Kpu</item>
+        <item>Time Fade</item>
+        <item>Time Fade On</item>
+        <item>Time Fade Standby Auto</item>
+        <item>Time Fade Standby Manual</item>
+        <item>Time Occupancy Delay</item>
+        <item>Time Prolong</item>
+        <item>Time Run On</item>
+    </string-array>
+    <string-array name="device_adapter_scheduler_actions">
+        <item>Turn Off</item>
+        <item>Turn On</item>
+        <item>Scene Recall</item>
+        <item>No action</item>
+    </string-array>
+    <string-array name="device_adapter_scheduler_scenes">
+        <item>Scene 1</item>
+        <item>Scene 2</item>
+    </string-array>
+    <string-array name="device_adapter_scheduler_hours">
+        <item>Every</item>
+        <item>Random (once a day)</item>
+        <item>Specific</item>
+    </string-array>
+    <string-array name="device_adapter_scheduler_minutes">
+        <item>Every</item>
+        <item>Every 15 minutes</item>
+        <item>Every 20 minutes</item>
+        <item>Random (once an hour)</item>
+        <item>Specific</item>
+    </string-array>
+    <string-array name="device_adapter_scheduler_seconds">
+        <item>Every</item>
+        <item>Every 15 seconds</item>
+        <item>Every 20 seconds</item>
+        <item>Random (once a minute)</item>
+        <item>Specific</item>
+    </string-array>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>

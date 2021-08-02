@@ -1,0 +1,98 @@
+<!--
+  ~ Copyright © 2019 Silicon Labs, http://www.silabs.com. All rights reserved.
+  -->
+
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="actionModeBackground">@color/primaryDarker</item>
+        <item name="colorPrimary">@color/alizarin_crimson</item>
+        <item name="colorPrimaryDark">@color/alizarin_crimson_darker</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.Button.Simple" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_simple</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">30dip</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingStart">@dimen/adapter_layout_padding</item>
+        <item name="android:paddingEnd">@dimen/adapter_layout_padding</item>
+        <item name="android:paddingTop">@dimen/adapter_item_padding</item>
+        <item name="android:paddingBottom">@dimen/adapter_item_padding</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/adapter_label_big_size</item>
+    </style>
+
+    <style name="AppTheme.Button.Send" parent="AppTheme.Button.Simple">
+        <item name="android:background">@drawable/button_send</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/adapter_item_padding</item>
+        <item name="android:paddingEnd">@dimen/adapter_item_padding</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="AppTheme.Spinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:padding">@dimen/adapter_item_padding</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/alizarin_crimson</item>
+        <item name="colorPrimaryDark">@color/alizarin_crimson_darker</item>
+        <item name="colorAccent">@color/alizarin_crimson</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Light.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/alizarin_crimson</item>
+        <item name="colorPrimaryDark">@color/alizarin_crimson_darker</item>
+        <item name="colorAccent">@color/alizarin_crimson</item>
+    </style>
+
+    <style name="AppTheme.Light.Dialog.Alert.Wrap" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">70%</item>
+        <item name="android:windowMinWidthMinor">70%</item>
+        <item name="colorPrimary">@color/alizarin_crimson</item>
+        <item name="colorPrimaryDark">@color/alizarin_crimson_darker</item>
+        <item name="colorAccent">@color/alizarin_crimson</item>
+    </style>
+
+    <style name="AppTheme.Light.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">70%</item>
+        <item name="android:windowMinWidthMinor">70%</item>
+        <item name="colorPrimary">@color/alizarin_crimson</item>
+        <item name="colorPrimaryDark">@color/alizarin_crimson_darker</item>
+        <item name="colorAccent">@color/alizarin_crimson</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+
+    <style name="DeviceConfigSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dialog_separator_height</item>
+        <item name="android:foreground">@color/dialog_device_config_separator</item>
+    </style>
+
+</resources>
