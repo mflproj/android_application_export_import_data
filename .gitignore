@@ -3,3 +3,5 @@
 /build/
 /ble_mesh-android_api_high-release/build/.transforms/
 /ble_mesh-android_api_low-release/build/.transforms/
+/gradle/wrapper/gradle-wrapper.properties
+/gradle/wrapper/gradle-wrapper.jar
