@@ -30,11 +30,20 @@ interface NetworkListView {
 
     fun showNetworkFragment()
 
+    fun showImportNetworkDialogErrorMessage(subnet: Subnet, msg: String)
+
+    fun showRetrieveNetworkDataDialog()
+
+    fun showNetworkOptionsDialog()
+
+    fun showImportDataDialog(subnet: Subnet)
+
     enum class LOADING_DIALOG_MESSAGE {
         CONNECTING_TO_NETWORK,
         CONNECTING_TO_NETWORK_ERROR,
         REMOVING_NETWORK,
-        REMOVING_NETWORK_ERROR
+        REMOVING_NETWORK_ERROR,
+        EXPORTING_AND_IMPORTING_NETWORK_DATA
     }
 
     enum class TOAST_MESSAGE {

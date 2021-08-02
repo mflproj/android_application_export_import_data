@@ -77,6 +77,19 @@
         <item name="colorAccent">@color/alizarin_crimson</item>
     </style>
 
+    <style name="AppThemeCustomTitle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">70%</item>
+        <item name="android:windowMinWidthMinor">70%</item>
+        <item name="colorPrimary">@color/alizarin_crimson</item>
+        <item name="colorPrimaryDark">@color/alizarin_crimson_darker</item>
+        <item name="colorAccent">@color/alizarin_crimson</item>
+        <item name="android:windowTitleSize">@style/DialogTitle</item>
+    </style>
+
+    <style name="DialogTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">12sp</item>
+    </style>
+
     <style name="AppTheme.Light.Dialog" parent="Theme.AppCompat.Light.Dialog">
         <item name="android:windowMinWidthMajor">70%</item>
         <item name="android:windowMinWidthMinor">70%</item>

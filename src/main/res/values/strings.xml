@@ -9,6 +9,7 @@
     <string name="dialog_positive_ok">OK</string>
     <string name="dialog_positive_save">Save</string>
     <string name="dialog_positive_delete">Delete</string>
+    <string name="dialog_positive_reimport">Export and import</string>
     <string name="dialog_negative_cancel">Cancel</string>
     <string name="dialog_retry">Retry</string>
 
@@ -44,8 +45,11 @@
     <string name="network_dialog_loading_text_removing_network_error">Error removing network %1$s</string>
     <string name="network_dialog_loading_text_connecting_to_network">Connecting to network %1$s</string>
     <string name="network_dialog_loading_text_connecting_to_network_error">Connecting to network error %1$s</string>
+    <string name="network_dialog_loading_text_export_and_import_network_data">Retrieve data to re-import network database?</string>
+    <string name="network_dialog_loading_text_exporting_and_importing_network_data">Exporting and importing network data %1$s</string>
     <string name="network_dialog_share_keys_button">Share</string>
     <string name="network_dialog_save_keys_to_file_button">Save to file</string>
+    <string name="network_dialog_import_locally_error">Import network error</string>
 
     <string name="group_adapter_empty_list_title">No groups</string>
     <string name="group_adapter_empty_list_message">Tap + to add a new group.</string>
@@ -325,6 +329,8 @@
     <string name="logs_menu_action_save">Save</string>
     <string name="logs_empty_list">No logs found</string>
     <string name="logs_save_error">Something went wrong</string>
+    <string name="view_devices_and_groups">View devices and groups</string>
+    <string name="retrieve_data_from_network_to_re_import_into_database">Retrieve data from network to re-import into database</string>
 
     <string-array name="device_adapter_lc_properties">
         <item>Ambient LuxLevel On</item>
